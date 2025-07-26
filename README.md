@@ -1,4 +1,4 @@
-# 🍽️ Recipe Book App
+#  Recipe Book App 🍽️
 
 A responsive recipe search application built with React and Vite. Users can search for dishes, view detailed ingredients & instructions.
 
