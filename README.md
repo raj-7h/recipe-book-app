@@ -1,12 +1,74 @@
-# React + Vite
+# 🍽️ Recipe Book App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive recipe search application built with React and Vite. Users can search for dishes, view detailed ingredients & instructions.
 
-Currently, two official plugins are available:
+## 🔗 Deployed Link
+[https://recipe-book-app-two.vercel.app/]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Tech Stack
+- React (Vite)
+- CSS (Responsive Design)
+- Spoonacular API
 
-## Expanding the ESLint configuration
+## 📁 Folder Structure
+<pre>
+recipe-book-app/
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── assets/             
+│   ├── components/
+│   │   ├── Mainpage.jsx
+│   │   ├── MealCards.jsx
+│   │   ├── MealInfo.jsx
+│   │   └── Loading.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css           # Global styles
+├── .env                    # API key (not committed)
+├── .gitignore
+├── .eslint.config.js
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+</pre>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📄 Environment Variables
+Create a `.env` file in the root directory and add your API key like this:
+
+```env`
+VITE_API_KEY=your_spoonacular_api_key
+```env`
+
+## 🛠️ Run Locally
+
+Follow these steps to run the project on your local machine:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/raj-7h/recipe-book-app.git
+   cd recipe-book-app
+2. **Install dependencies**
+   ```bash
+   npm install
+3. **Configure Environment Variables**
+
+   Create a `.env` file in the root directory of the project and add your Spoonacular API key to it. This key is used to fetch recipes from the Spoonacular API.
+
+   **.env**
+   ```env
+   VITE_API_KEY=your_spoonacular_api_key_here
+4. **Run the development server**
+     ```bash
+     npm run dev
+
+## 👤 Author
+
+**Raj Jha**  
+Front-End Developer | React Enthusiast
+
+- GitHub: [@raj-7h](https://github.com/raj-7h)
+- LinkedIn: [Raj Jha](https://www.linkedin.com/in/raj-jha7h/)
+- Portfolio: *Coming soon*
